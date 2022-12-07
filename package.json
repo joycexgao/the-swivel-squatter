@@ -1,0 +1,23 @@
+{
+  "name": "sphere-new",
+  "version": "1.0.0",
+  "description": "sphere case study",
+  "main": "sphere.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joycexgao/Sphere-iterative-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joycexgao/Sphere-iterative-design/issues"
+  },
+  "homepage": "https://github.com/joycexgao/Sphere-iterative-design#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.1"
+  }
+}

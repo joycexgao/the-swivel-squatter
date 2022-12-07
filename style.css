@@ -1,0 +1,239 @@
+/* ======= JEFF'S CSS RESET ======= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========== OUR STYLES ========== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+a{
+    color:#7D5BA6;
+}
+
+b{
+    font-weight: 1500;
+}
+
+li{
+    list-style: none;
+}
+
+img.align-self {
+    align-self: center;
+}
+
+
+.semi-imp{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;;
+    padding-bottom: 1rem;
+}
+
+
+.myNav{
+    height:4rem;
+    padding: 1rem 1rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.brand{
+    padding:1rem;
+}
+
+.right-nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.toggler{
+    padding:1rem;
+}
+
+.heading{
+    padding-top: 0rem;
+    /* height: 30rem; */
+    /* background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(125,91,166,1)); */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.intro{
+    padding-top: 4rem;
+}
+
+.overview{
+    width:70%;
+    padding-right: 2rem;
+}
+
+.basic-info{
+    width:30%;
+    /* padding-top: 3rem; */
+}
+
+.persona{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self:center;
+}
+
+.page-section{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.section-title{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.small-point{
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 0;
+    padding-top:0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.ss-point{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+    padding-top:0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.big-point{
+    font-size:2.5rem; 
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.aspect-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aspect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 35%;
+    padding:1rem;
+}
+
+.textbox{
+    border-radius: 0.7rem;
+    background-color: #F2D1CA;
+    /* background-color: #B1D3CA; */
+    padding: 1.5rem;
+    /* margin-right:3rem; */
+    /* border-left: 2rem; */
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choice-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.choice{
+    padding-left: 0;
+}
+
+bullet{
+    display: list-item;
+    list-style-type: "\2023";
+    padding-left:0;
+    padding-inline-start: 1ch;
+    margin:0.3rem;
+}
+
+chair{
+    display: list-item;
+    list-style-type: "🪑";
+    padding-left:0;
+    padding-inline-start: 1ch;
+    margin:0.3rem;
+}
+
+.feedback{
+    width: 80%;
+}
+
+
+#skip:link{
+text-decoration: none;
+color:#7D5BA6;
+text-decoration-color:#7D5BA6;
+}
+
+.myFooter{
+    color:rgb(248, 226, 187); 
+    background-color: black; 
+    margin: 0; 
+    border:0;
+    padding: 0.5rem 1rem;
+    font-family: 'Mukta', sans-serif;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}

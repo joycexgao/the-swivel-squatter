@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterative Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Poppins:wght@300;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top myNav" style="background-color: #072827;">
+        <a class="navbar-brand brand" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)">Joyce Gao</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon toggler"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse right-nav" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';" > Works</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="assets/joyce_resume.pdf" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> Resume</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="about.html" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> About </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="heading d-flex flex-column justify-content-center align-items-center">
+        <img src="assets/cover.png">
+        <h1 style="padding-top: 2rem;">The Swivel Squatter</h1>
+        <h2 style="font-size: 1rem;">a chair for inflexible elementary school teachers
+        </h2>
+      </div>
+    
+    <div class="intro container d-flex flex-row">
+        <div class="overview">
+            
+            <p class="small-point">In my Design Engineering course, we were tasked to design a chair tailored for the needs of a specific persona.</p>
+        </div>
+        <div class="basic-info" >
+            <ul class="small-point">
+                <li style="margin:0.2rem">Project Type: course team project</li>
+                <li style="margin:0.2rem">Time: 3 weeks</li>
+                <li style="margin:0.2rem">Role: researcher, project manager, designer</li>
+        
+            </ul>
+        </div>
+    </div>
+
+    <div class="page-section container text-center small-point" id="skip">
+      <a href="#final" type="button" class="btn btn-outline-primary">↓ Skip to final product ↓</a>
+    </div>
+
+    <div class="page-section container" style="padding-bottom: 0;">
+    <h3 class="section-title text-muted text-uppercase">the persona</h3>
+    </div>
+
+    <div class="persona page-section container">
+        <div style="width: 50%;padding: 0;">
+        <img src="assets/vilde persona.jpg" alt="a female presenting teacher with children sitting on the floor surrounding a globe" >
+        </div>
+        <div style="width: 45%; height:auto">
+          <p class="small-point">
+            Vilde, age 37, elementary school teacher
+          </p>
+          <p class="semi-imp" style="text-align: start;">
+            Vilde is <u style="text-decoration-style:wavy;text-decoration-color:#519E8A; text-decoration-thickness:0.25rem">inflexible</u>, so sitting on the floor during class gives her hip pain.
+          </p>
+          <p class="semi-imp" style="text-align: start;">
+            She wants a chair that allows her to <u style="text-decoration-style:wavy;text-decoration-color:#519E8A; text-decoration-thickness:0.25rem">sit comfortably</u>, gives her <u style="text-decoration-style:wavy;text-decoration-color:#519E8A; text-decoration-thickness:0.25rem">maximum mobility</u>, and positions her <u style="text-decoration-style:wavy;text-decoration-color:#519E8A; text-decoration-thickness:0.25rem">close to her students</u>. 
+          </p>
+      </div>
+    </div>
+
+    <div class="page-section container">
+      <h3 class="section-title text-muted text-uppercase">the question</h3>
+      <p class="big-point">
+        How might we produce a classroom-friendly chair that accommodates Vilde’s lack of flexibility?
+    </p>
+    <div class="img-container">
+    <img style="width:80%" src="assets/venn.png" alt="flowchart of design goals">
+    </div>
+    </div>
+
+    <div class="page-section container">
+        <h3 class="section-title text-muted text-uppercase">research - kinesiology</h3>
+        <p class="small-point">We looked for suggestions from professionals like physical therapists and yoga instructors, and we learned that…</p>
+        <div class="persona" style="padding: 1rem 0;">
+          <div class="center-text" style="width: 60%;">
+            <p class="semi-imp" style="font-size: 1.7rem;">
+              For people with limited hip flexibility, sitting on the floor creates a narrow angle between the hip and the femur, causing instability and back pain 
+            </p>
+          </div>
+          <div style="width: 40%;">
+            <img src="assets/hip angle.png">
+          </div>
+        </div>
+        <p class="ss-point text-muted text-center">Joe Miller, <a href="https://joemilleryoga.com/2020/07/13/how-to-sit-comfortably-on-the-floor/
+          ">"How to sit comfortably on the floor"</a></p>
+        <div class="textbox">
+          <p class="big-point">
+            The most common way to reduce hip flexion demand is to <u style="text-decoration-style:wavy;text-decoration-color:#519E8A; text-decoration-thickness:0.25rem">elevate the hips</u>.
+          </p>
+        </div>     
+    </div>
+
+    
+
+    <div class="page-section container">
+      <h3 class="section-title text-muted text-uppercase">ideation!</h3>
+      <p class="small-point">After individual brainstorming, each team member pitched their designs. Here are some of the designs that we discussed:</p>
+
+      <div class="img-container">
+        <a style="width:33%; cursor:zoom-in" href="./assets/ideation1.jpg" target="_blank">
+            <img src="./assets/ideation1.jpg" alt="brainstorm sketch 1">
+        </a>
+        
+        <a style="width:33%; cursor:zoom-in" href="./assets/ideation3.png" target="_blank">
+            <img src="./assets/ideation3.png" alt="brainstorm sketch 2">
+        </a>
+        <a style="width:33%;cursor:zoom-in" href="./assets/ideation4.jpg" target="_blank">
+            <img src="./assets/ideation4.jpg" alt="brainstorm sketch 4">
+        </a>
+        <div style="width:30%;" class="ss-point text-muted">
+          Includes a low rocking chair, a foldable chair that works like a bendy straw, and what is basically a child-proofed magis spun chair  
+        </div>
+        <div style="width:30%;" class="ss-point text-muted">
+          Includes a spinning, rounded yoga block, and a chair that assists the user to stand up and sit down
+        </div>
+        <div style="width:30%;" class="ss-point text-muted">
+          Includes a foldable chair that is inspired by <a href="https://www.moft.us/products/moft-z-5-in-1-sit-stand-desk?variant=32287445155927
+          ">MOFT</a> laptop stands
+        </div>
+      </div>
+
+      <p class="small-point">Through discussion, we integrated our favorite parts of each ideation sketch into our final design</p>
+      <div class="center-text">
+        <img src="assets/prototype sketch2.png" style="width: 60%;">
+      <div>
+        <ul style="font-size: 1.2rem;">
+          <chair class="small-point">“T-shaped” base with padded wings allows the user to kneel comfortably
+          </chair>
+          <chair class="small-point">Tilt mechanism at the joints allow adjustment to tilt angle of seat and armrest</chair>
+          <chair class="small-point">Swivel mechanism placed between base/seat, and base/arm-rest allowing the user to vary sitting position as desired</chair>
+          <chair class="small-point">Push-Button height adjustment for armrest</chair>
+          <chair class="small-point">Rounded edges to increase impact safety</chair>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-section container">
+    <h3 class="section-title text-muted text-uppercase">prototyping</h3>
+    <p class="small-point">With these design choices in mind, we created a physical prototype</p>
+    <div class="center-text">
+      <img src="assets/image7.jpg" style="width:30%;height:auto;">
+      <img src="assets/image18.jpg" style="width:30%">
+      <img src="assets/image15.jpg" style="width:30%">
+    </div>
+  </div>
+
+  <div class="page-section container">
+    <h3 class="section-title text-muted text-uppercase">CAD analysis & structural support</h3>
+    <p class="small-point">With these design choices in mind, we created a physical prototype</p>
+    <div class="center-text">
+        <img src="assets/CAD before.png" style="width:49%">
+        <img src="assets/CAD before2.png"style="width:49%" >
+    </div>
+        <p class="small-point" style="text-align:center; padding:1rem 0 2rem 0;">Our first CAD prototype lacked structural support, so materials warped under stress of applied forces 
+        </p>   
+    
+    
+    <div class="center-text">
+        <img src="assets/CAD prototype.png" style="width:49%">
+        <img src="assets/CAD after.png"style="width:49%" >
+    </div>
+        <p class="small-point" style="text-align:center; padding-top:1rem;">We increased structural support by adding flare of support at connection to both seat and base  
+        </p>   
+    
+  </div>
+
+    <div class="page-section container">
+      <h3 class="section-title text-muted text-uppercase">conclusions & lessons</h3>
+      <bullet class="small-point">
+        <b>Take a step back and consider the most fundamental features first.</b> I was overwhelmed by the vast number of choices that we need to make in the design process – the curves, the material, the swivel mechanisms. Eventually, a teammate guided us to take a step back and consider the most fundamental features of our chair, which made the task much more manageable. 
+      </bullet>
+      <bullet class="small-point"><b>The ideation process is so chaotic!</b> We struggled during our ideating stage, since our ideas are all so widely different. Eventually, we organized our thoughts by recording the features that we appreciated from each design and piecing them together. After this experience, I begin to truly appreciate the “design squiggle”
+      </bullet>
+      <img src="assets/design squiggle.png" style="padding-top: 1rem;">
+      <p class="ss-point text-muted text-center">the "design squiggle"</p>
+    </div>
+
+
+
+
+    <h3 class="section-title text-muted text-uppercase text-center" style="padding: 6rem 0 2rem 0;">Thank you for reading!</h3>
+
+    <div class="myFooter">
+      @Nov 2022 Joyce Gao
+    </div>
+    
+      
+    
+
+    
+
+</body>
+
+</html>
+
