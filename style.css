@@ -162,7 +162,7 @@ img.align-self {
 
 .textbox{
     border-radius: 0.7rem;
-    background-color: #F2D1CA;
+    /* background-color:  */
     /* background-color: #B1D3CA; */
     padding: 1.5rem;
     /* margin-right:3rem; */
@@ -235,5 +235,19 @@ text-decoration-color:#7D5BA6;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: center;
+}
+
+.custom-mark{
+    background-color:#c2eedd;
+    border-radius: 1.5rem;
+    /* height: 50%; */
+    padding: 0 0.1em;
+}
+
+#research-obs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
