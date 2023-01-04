@@ -1,0 +1,31 @@
+/* ========== MY STYLES ========== */
+a{
+    color:#B4CA9D;
+}
+
+a:hover {
+text-decoration: none;
+color: rgb(112, 153, 124);
+}
+  
+.myNav{
+    font-family: 'Signika Negative', sans-serif;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar-brand:hover{
+    color: rgb(112, 153, 124);
+  }
+  
+  .nav-link:hover{
+    color: rgb(112, 153, 124);
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #B4CA9D;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180, 202, 107)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
