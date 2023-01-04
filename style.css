@@ -55,21 +55,30 @@ img.align-self {
 
 
 .myNav{
-    height:4rem;
-    padding: 1rem 1rem;
     font-family: 'Signika Negative', sans-serif;
-}
+    font-size: larger;
+  }
+  
+  .navbar-brand:hover{
+    color: rgb(112, 153, 124);
+  }
+  
+  .nav-link:hover{
+    color: rgb(112, 153, 124);
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #B4CA9D;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180, 202, 107)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
 .brand{
     padding:1rem;
 }
 
-.right-nav{
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
 
 .toggler{
     padding:1rem;
